@@ -1,0 +1,73 @@
+title: The MVP Handbook
+description: A 20-chapter playbook for non-technical founders. Go from idea → shipped product → first paying customer → distribution that compounds. Built by Pexa Studio.
+url: https://shakirdmr.github.io
+baseurl: /the-mvp-handbook
+permalink: pretty
+
+remote_theme: just-the-docs/just-the-docs
+
+plugins:
+  - jekyll-remote-theme
+  - jekyll-include-cache
+  - jekyll-seo-tag
+
+# Just-the-docs settings
+search_enabled: true
+search:
+  heading_level: 2
+  previews: 3
+  preview_words_before: 5
+  preview_words_after: 10
+  tokenizer_separator: /[\s/]+/
+  rel_url: true
+  button: false
+
+heading_anchors: true
+
+# Color scheme
+color_scheme: dark
+
+# Aux links in the upper-right
+aux_links:
+  "Pexa Studio":
+    - "https://pexastudio.com"
+  "Book a free call":
+    - "https://cal.com/shakirdmr/free-intro-call"
+  "GitHub":
+    - "https://github.com/shakirdmr/the-mvp-handbook"
+
+aux_links_new_tab: true
+
+# Footer
+footer_content: 'Built by <a href="https://pexastudio.com">Pexa Studio</a> · <a href="https://cal.com/shakirdmr/free-intro-call">Book a free call</a> · <a href="https://promptit.app">Prompt It</a> · MIT License'
+
+# Back-to-top button
+back_to_top: true
+back_to_top_text: "Back to top"
+
+# Last edit timestamp
+last_edit_timestamp: true
+last_edit_time_format: "%b %e %Y"
+
+# GitHub Edit link
+gh_edit_link: true
+gh_edit_link_text: "Edit this page on GitHub"
+gh_edit_repository: "https://github.com/shakirdmr/the-mvp-handbook"
+gh_edit_branch: "main"
+gh_edit_view_mode: "tree"
+
+# Callouts
+callouts:
+  ai_shortcut:
+    title: AI shortcut
+    color: purple
+
+# Exclude internal-only files from the rendered site
+exclude:
+  - "**/IMAGES_TODO.md"
+  - "Gemfile"
+  - "Gemfile.lock"
+  - "vendor/"
+  - "node_modules/"
+  - ".git/"
+  - "CONTRIBUTING.md"
