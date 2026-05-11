@@ -1,10 +1,8 @@
----
-title: Home
-layout: default
-nav_order: 0
-description: "A 20-chapter playbook for non-technical founders. Go from idea → shipped product → first paying customer → distribution that compounds."
-permalink: /
----
+
+
+
+[![GITHUB PAGES WEBSITE](https://shakirdmr.github.io/the-mvp-handbook)]
+
 
 # The MVP Handbook
 
