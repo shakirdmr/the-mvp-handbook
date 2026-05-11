@@ -1,7 +1,8 @@
 
 
 
-[![GITHUB PAGES WEBSITE](https://shakirdmr.github.io/the-mvp-handbook)]
+GITHUB PAGES WEBSITE 
+https://shakirdmr.github.io/the-mvp-handbook
 
 
 # The MVP Handbook
